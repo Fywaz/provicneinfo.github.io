@@ -1,0 +1,253 @@
+/* Часть которая будет везде */
+
+body{
+    font-family: "Arial";
+    color: white;
+    background-color: rgb(54,57,71);
+    margin: 0;
+}
+
+.shapka{
+    background-color: rgb(53,59,80);
+    margin-top: 0px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    font-size: 15px;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
+    0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.server-container{
+    display: flex;
+     gap: 10px;
+     margin-top: 12px;
+     flex-grow: 1;
+     flex-wrap: wrap;
+}
+
+.server{
+    margin-right: 30px;
+    transition: background-color 0.5s;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    height: 33px;
+}
+
+.server:hover{
+    color: white;
+}
+
+.avto{
+    margin-left: 270px;
+} 
+
+
+.server:hover{
+    background-color: rgb(66, 71, 88);
+}
+
+.site-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.site{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    transition: background-color 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.site:hover{
+    background-color: rgb(66, 71, 88);
+}
+
+.nav{
+    font-size: 13px;
+    width: 240px;
+    height: 100%;
+    background-color: rgb(39, 45, 61);
+
+    display: flex;
+
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 3;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
+    0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.province{
+    height: 80px;
+    padding: 20px 0;
+    object-fit: contain;
+}
+
+
+
+.innav{
+    padding-left: 30px;
+    padding: 0 0 0px 20px;
+    text-decoration: none;
+    flex-basis: 100%;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.innav:hover{
+    background-color: #2a959b;
+    color: white;
+}
+
+/* Основная часть страницы */
+
+.poisk{
+    margin-left: 300px;
+    margin-top: 90px;
+    margin-right: 60px;
+    background-color: #262a37;
+    height: 70px;
+    border-radius: 0.25rem;
+}
+
+.search{
+    padding-left: 15px;
+    margin-right: 15px;
+    border-radius: 0.25rem;
+    display: flex;
+    
+}
+
+.search-pole{
+    margin-top: 15px;
+    margin-left: 0;
+    background-color: #353b50;
+    outline: none;
+    border: none;
+    height: 40px;
+    /* position: fixed; */
+    padding-left: 20px;
+    flex-grow: 1;
+    border: 2px solid #3f5088;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+
+.submit{
+    margin-top: 15px;
+    height: 40px;
+    background-color: #353b50;
+    border: none;
+    color: white;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border: 2px solid #3f5088;
+    border-right: none;
+}
+
+.submit:hover{
+    background-color:#3f5088d0;
+}
+
+                        /* Машины */
+section{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 60px;
+}
+
+.avt{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+.avto-container{
+    height: 400px;
+    flex-basis: 32%;
+    min-width: 350px;
+    
+    display: flex;
+    background-color: #262a37;
+    border-radius: 0.25rem
+}
+
+
+
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.cost{
+    color: #daa520;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.name{
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon{
+    height: 16px;
+    width: 16px;
+}
+
+.info1{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.avto-photo{ 
+    width: 100%;
+    height: 150px;
+    object-fit:cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #596f7d;
+    opacity: 100%;
+    height: 2px;
+}
